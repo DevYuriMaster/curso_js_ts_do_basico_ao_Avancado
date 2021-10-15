@@ -25,6 +25,6 @@ if (operacao == 'S' || operacao == 's') {
     var m1 = parseInt(prompt('Digite primeiro número '));
     var m2 = parseInt(prompt('Digite segundo número '));
     var multiplicar = m1 * m2;
-    alert('A multiplicação entre os dois números é: ' + multiplicar );
+    alert('A multiplicação entre os dois números é: ' + multiplicar);
 }
 
