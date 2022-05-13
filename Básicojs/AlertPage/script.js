@@ -1,1 +1,0 @@
-alert('Lincoln é gay');
