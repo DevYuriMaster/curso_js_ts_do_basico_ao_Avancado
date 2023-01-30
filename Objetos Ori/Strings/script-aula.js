@@ -19,7 +19,7 @@ const listaFrutas = 'Melancia, Banana, Laranja';
 console.log(listaFrutas.includes(fruta, 14));
 
 console.log(fruta.endsWith('na'));
-console.log(fruta)
+console.log(fruta);
 
 const transacao1 = 'Depósito de cliente';
 const transacao2 = 'Depósito de fornecedor';
