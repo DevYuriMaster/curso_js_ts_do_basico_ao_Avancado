@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora de pena de execução penal</title>
+  </head>
+  <body>
+    
+    <form>
+      <h1>Calculadora de pena de execução penal</h1>
+      <label for="data-condenacao">Data da condenação:</label>
+      <input type="date" id="data-condenacao" name="data-condenacao"><br>
+
+      <label for="tempo-condenacao">Tempo da condenação (em anos):</label>
+      <input type="number" id="tempo-condenacao" name="tempo-condenacao"><br>
+
+      <label for="remicao">Remição (em dias):</label>
+      <input type="number" id="remicao" name="remicao"><br>
+
+      <label for="detracao">Detração (em dias):</label>
+      <input type="number" id="detracao" name="detracao"><br>
+
+      <label for="regime-atual">Regime atual:</label>
+      <select id="regime-atual" name="regime-atual">
+        <option value="fechado">Fechado</option>
+        <option value="semiaberto">Semiaberto</option>
+        <option value="aberto">Aberto</option>
+      </select><br>
+
+      <button type="button" onclick="calcularPena()">Calcular pena</button>
+
+      <p id="resultado"></p>
+    </form>
+
+   
+
+    <script src="/Logica js/Calculadora Penal/assets/main.js"></script>
+  </body>
+</html>
