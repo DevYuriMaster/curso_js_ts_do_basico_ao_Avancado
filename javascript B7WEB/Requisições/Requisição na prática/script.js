@@ -5,7 +5,6 @@ async function clicou(){
     let response = await fetch('https://jsonplaceholder.typicode.com/posts')
     let json = await response.json();
     alert(`Título do primeiro post: ${json[0].title}`);
-
     alert("Clicou");
 }
 
