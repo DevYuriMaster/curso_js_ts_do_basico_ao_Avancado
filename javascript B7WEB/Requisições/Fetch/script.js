@@ -3,7 +3,6 @@
 function loadPosts() {
 
     document.getElementById("posts").innerHTML = 'Carregando...';
-
     fetch('https://jsonplaceholder.typicode.com/posts')
         .then(function (resultado) {
             //2 - Transformar o resultado da requisição em formato JSON
@@ -17,6 +16,20 @@ function loadPosts() {
             console.log("Deu problema...")
         });
 }
+
+//Forma somplificada com Async e Await
+/*
+async function loadPosts() {
+
+    document.getElementById("posts").innerHTML = 'Carregando...';
+
+    let req = await fetch('https://jsonplaceholder.typicode.com/posts');
+    let json = await req.json();
+    montarBlog(json);
+        
+}
+*/
+
 
 function montarBlog(lista){
     let html = '';
