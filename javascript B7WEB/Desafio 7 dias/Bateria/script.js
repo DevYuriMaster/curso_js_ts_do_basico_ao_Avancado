@@ -26,9 +26,7 @@ function playSound(sound){
         setTimeout(()=>{
             keyElement.classList.remove('active');
         }, 300)
-    }
- 
-    
+    } 
 }
 
 function playComposition(songArray){
